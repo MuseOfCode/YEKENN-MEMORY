@@ -63,9 +63,17 @@ The current version of the game serves as the foundation for future enhancements
 The development of this memory game will be a collaborative effort between myself and Yejun Guan, with additional features and improvements being continuously added. Some parts of the game’s features, such as backend integration or advanced animations, might be developed elsewhere. You can follow my collaborator's GitHub [here](https://github.com/wonton1979) to track ongoing contributions and development.
 
 ---
+### Gameplay
+
+[YEKENMEMORYGP.webm](https://github.com/user-attachments/assets/6bd4cb76-d610-4259-8377-40b403a81dad)
+
+
+
+---
 ## Credits
 
 - **Game Logic and Features**: Developed by Yejun Guan && Ken'Terria Reaves.
 - **UI**: Ken'Terria Reaves.
 - **Background Music**: "Spider Dance" by Toby Fox (Used with permission).
+
 
