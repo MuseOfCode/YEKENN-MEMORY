@@ -7,6 +7,7 @@ The **YEKENN Memory Game** is a fun and interactive memory matching game built w
 - **Card Matching**: The game involves a set of cards that are shuffled and placed face down. Players need to flip two cards at a time and try to match the values.
 - **Timer**: A countdown timer tracks the remaining time to complete the game. The timer starts when the first card is flipped.
 - **Win Condition**: The player wins the game once all the pairs of cards are matched.
+- **Lose condition**: The player loses the game once the countdown reaches 0.
 - **Music**: A fun background track (Spider Dance) plays during the game, starting when the first card is flipped.
 
 ### The features of this MVP
@@ -48,14 +49,14 @@ The application should now be running on `http://localhost:5173` (or another por
 ## How Features Evolved and Future Improvements
 
 ### Feature Development
-The core functionality of the game, including the **card matching logic**, **custom timer** and **leaderboard** was built to establish the MVP of the game. These features were developed with React and focused on creating a smooth and interactive user experience. As development progressed, new features like **player name validation** and **localStorage leaderboard persistence** were added to improve the gameplay experience.
+The core functionality of the game, including the **card matching logic** and **custom timer** was built to establish the MVP of the game. These features were developed with React and focused on creating a smooth and interactive user experience. 
 
 The current version of the game serves as the foundation for future enhancements. The initial development was focused on ensuring that the game logic is solid and that the UI provides clear and intuitive feedback. Moving forward, additional features will be added, such as sound effects, difficulty levels and animations.
 
 ### Future Features & Improvements
 - **Sound Effects**: Add sound effects for card matching, no match and game completion.
 - **Difficulty Levels**: Implement different levels of difficulty (more cards, faster timer, etc.).
-- **Backend Sync**: Sync the leaderboard with a backend service (e.g., Firebase, Node.js API) to enable real-time updates and data persistence across devices.
+- **Leaderboard & Backend Sync**: Create and sync a leaderboard with a backend service (e.g., Firebase, Node.js API) to enable real-time updates and data persistence across devices.
 - **Visual Effects & Animations**: Improve the game’s aesthetics with animations for card flips, matched pairs and game transitions.
 - **Mobile Optimisation**: Enhance the responsiveness and layout for mobile devices to improve the overall user experience.
 
@@ -74,6 +75,6 @@ The development of this memory game will be a collaborative effort between mysel
 
 - **Game Logic and Features**: Developed by Yejun Guan && Ken'Terria Reaves.
 - **UI**: Ken'Terria Reaves.
-- **Background Music**: "Spider Dance" by Toby Fox (Used with permission).
+- **Background Music**: "Spider Dance" by Toby Fox.
 
 
